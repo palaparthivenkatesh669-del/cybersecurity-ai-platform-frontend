@@ -1,0 +1,50 @@
+{
+  "name": "cybersecurity-ai-platform-frontend",
+  "version": "1.0.0",
+  "description": "Premium modern cybersecurity + AI platform frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.2.0",
+    "axios": "^1.6.0",
+    "zustand": "^4.4.1",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.4",
+    "@hookform/resolvers": "^3.3.2",
+    "recharts": "^2.10.3",
+    "react-icons": "^4.12.0",
+    "clsx": "^2.0.0",
+    "tailwindcss": "^3.3.0",
+    "date-fns": "^2.30.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.1.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@types/jest": "^29.5.8",
+    "prettier": "^3.1.0",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
